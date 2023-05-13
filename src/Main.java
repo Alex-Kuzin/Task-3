@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        CreditPaymentService service = new CreditPaymentService();
+        creditPaymentService service = new creditPaymentService();
         double payment1 = service.calculate(1_000_000, 12);
         System.out.println("Ежемесячный платеж:" + payment1);
 
